@@ -1,6 +1,6 @@
 function setup () {
     //aqui vou criar minha "mesa"
-        creatcanvas (600,400);
+        createcanvas (600,400);
 }
 
 function draw (){
