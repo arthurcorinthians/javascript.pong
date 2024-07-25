@@ -13,6 +13,7 @@ function draw (){
     background (75, 0, 130);
 
     criaBolinha (xBolinha, yBolinha, tamBolinha)
+    moveBolinha()
 }
 
 //funcao bolinha
