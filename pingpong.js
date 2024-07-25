@@ -19,9 +19,15 @@ function draw (){
 //funcao bolinha
 function criaBolinha (Xbolinha, yBolinha, tamBolinha){
     circle (xBolinha, yBolinha, tamBolinha);
+
 }
 //funcao em bolinha
 function criaBolinha (xBolinha, yBolinha, tamBolinha){
     xBolinha = xvelocidadeBolinha + xBolinha;
     yBolinha = yvelocidadeBolinha + yBolinha;
+}
+
+function Borda(){
+    if (xBolinha > width || xBolinha < 0)
+        yvelocidadeBolinha
 }
