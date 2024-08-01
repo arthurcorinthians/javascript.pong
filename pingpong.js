@@ -19,7 +19,7 @@ function setup(){
 
 function draw(){
    
-    background(128,128,0); 
+    background(0,0,0); 
     criaBolinha(xBolinha, yBolinha, tamBolinha);
     moveBolinha();
     bolinhaBorda();
@@ -30,7 +30,7 @@ function draw(){
 
 // função bolinha
 function criaBolinha(xBolinha, yBolinha, tamBolinha){
-    fill("red"); 
+    fill("White"); 
     circle (xBolinha, yBolinha, tamBolinha);
 }
 
