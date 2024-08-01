@@ -40,6 +40,7 @@ function draw(){
 
 //função bolinha
 function criaBolinha(xBolinha, yBolinha,tamBolinha){
+    fill ("red");
     circle (xBolinha,yBolinha,tamBolinha);
 }
 
@@ -49,18 +50,10 @@ function moveBolinha(){
     yBolinha = yvelocidadeBolinha + yBolinha;
 }
 
-function Borda(){
-    if (xBolinha > width || xBolinha < 0){
-        xvelocidadeBolinha *= -1;
-    }
-    if (yBolinha > height || yBolinha < 0){
-        yvelocidadeBolinha *= -1;
-    }
-}
 //funcao responsavel por criar o retangulo que representa a raquete
 function criaRaquete (xRaquete, yRaquete, larguraRaquete, alturaRaquete) {
     fill ("blue");
-    rect (xRaquete, yRaquete, larguraRaquete, alturaRaquete);
+    rect(xRaquete, yRaquete, larguraRaquete, alturaRaquete);
 }
 //funçao responsavel por movimentar a raquete
 function movimentaRaquete(){
